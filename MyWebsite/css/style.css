@@ -153,13 +153,13 @@ button:active{
 .about-text p:nth-child(1){
 	color:#403e3e;
 	font-weight:bold;
-	font-size:31px;
+	font-size:26px;
 	line-height:0px;
 
 }
 .about-text p:nth-child(2){
 	color:#3e3d3d;
-	font-size:20px;
+	font-size:17px;
 	font-weight:bold;
 	line-height:5px;
 }
@@ -406,15 +406,15 @@ background: #F6F5F5;
 		width: 400px;
 	}
 	.about-text p:nth-child(1){
-		font-size: 20px;
+		font-size: 27px;
 	}
 	.about-text p:nth-child(2){
-		font-size: 10px;
+		font-size: 17px;
 	}
 
 	.about-text p:nth-child(3),
 	.about-text p:nth-child(4){
-		font-size: 14px;
+		font-size: 18px;
 	}
 	.services{
 		padding: 2% 5% 0px 5%;
@@ -526,6 +526,9 @@ background: #F6F5F5;
 	.services-text{
 		width: 100%;
 	}
+  	.services-text p{
+      font-size: 300px;
+    }
 	.contact-me{
 		height: 180px;
 	}
