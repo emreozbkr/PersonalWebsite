@@ -8,14 +8,6 @@ body{
     background: #F6F5F5;
 
   }
-  html,body{
-    place-items: center;
-    display: grid;
-  }
-::selection{
-  color: #fff;
-  background: #6665ee;
-}
   ::-webkit-scrollbar {
   width: 10px;
 }
@@ -34,6 +26,15 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+  html,body{
+    place-items: center;
+    display: grid;
+  }
+::selection{
+  color: #fff;
+  background: #6665ee;
+}
+
 ul{
 	list-style:none;
 }
@@ -152,20 +153,20 @@ button:active{
 .about-text p:nth-child(1){
 	color:#403e3e;
 	font-weight:bold;
-	font-size:23px;
+	font-size:31px;
 	line-height:0px;
 
 }
 .about-text p:nth-child(2){
 	color:#3e3d3d;
-	font-size:13px;
+	font-size:20px;
 	font-weight:bold;
 	line-height:5px;
 }
 .about-text p:nth-child(3),.about-text p:nth-child(4){
 	color:#7e7d7d;
 	font-family:calibri;
-	font-size:16px;
+	font-size:18px;
 }
 .about-text button{
 	width:120px;
@@ -192,7 +193,7 @@ button:active{
 
 .services-text p:nth-child(3){font-family:calibri;
 color:#7e7d7d;
-font-size: ;}
+font-size:18px ;}
 .services-text{
 	width: 500px;
 	margin:50px 0px;
@@ -367,7 +368,7 @@ footer{
 	margin:0px;
 	padding: 0px;
 	line-height:0px;
-	background-color:#F6F5F5;
+background: #F6F5F5;
 	border:1px solid #CBCBCB;
 	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
 }
@@ -545,8 +546,7 @@ footer{
 }
 .wrapper .static-txt{
   color:black;
-  font-size: 76px;
-  font-weight: 100;
+  font-size:75px;
 }
 .wrapper .dynamic-txts{
   margin-left: 15px;
@@ -590,7 +590,7 @@ footer{
   height: 100%;
   width: 100%;
   background:#F6F5F5;
-  border-left: 2px solid black;
+  border-left: 1px solid black;
   animation: typing 3s steps(10) infinite;
 }
 @keyframes typing {
